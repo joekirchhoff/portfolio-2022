@@ -6,6 +6,7 @@ import Theme from "./globalStyles/Theme";
 
 import Intro from "./components/Intro";
 import About from "./components/About";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <GlobalStyle />
       <Intro />
       <About />
+      <Skills/>
     </ThemeProvider>
   );
 }

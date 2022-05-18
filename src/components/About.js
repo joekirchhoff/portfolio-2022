@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const StyledSection = styled.section`
   background: #fff;
+  padding-bottom: 2rem;
 `
 
 const StyledHeader = styled.header`
@@ -39,7 +40,7 @@ const About = () => {
       </StyledHeader>
       <Description>
         <p>
-          Joe (he / him) is a full-stack web developer specializing in MERN apps, currently seeking opportunities to contribute to a thoughtful, like-minded team.
+          Joe (he / him) is a full-stack web developer based in Los Angeles. He is currently seeking opportunities to contribute to a thoughtful, like-minded team.
         </p>
         <p>
           In addition to coding, Joe is a working screenwriter. His supernatural thriller script was featured in the&nbsp;
