@@ -1,10 +1,20 @@
+import { ThemeProvider } from "styled-components";
+
+import StyleReset from "./globalStyles/StyleReset";
+import GlobalStyle from "./globalStyles/GlobalStyle";
+import Theme from "./globalStyles/Theme";
+
+import Intro from "./components/Intro";
+
 
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <ThemeProvider theme={Theme}>
+      <StyleReset />
+      <GlobalStyle />
+      <Intro />
+    </ThemeProvider>
   );
 }
 
