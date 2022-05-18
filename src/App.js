@@ -5,8 +5,7 @@ import GlobalStyle from "./globalStyles/GlobalStyle";
 import Theme from "./globalStyles/Theme";
 
 import Intro from "./components/Intro";
-
-
+import About from "./components/About";
 
 function App() {
   return (
@@ -14,6 +13,7 @@ function App() {
       <StyleReset />
       <GlobalStyle />
       <Intro />
+      <About />
     </ThemeProvider>
   );
 }

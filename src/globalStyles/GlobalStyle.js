@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
   :root {
     font-family: 'Montserrat', 'sans-serif';
     font-size: 16px;
+    scroll-behavior: smooth;
   }
 
 `
