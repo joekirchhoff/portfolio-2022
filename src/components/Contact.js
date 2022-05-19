@@ -19,7 +19,7 @@ const StyledHeader = styled.header`
 `
 
 const ContactList = styled.ul`
-  padding: 2rem;
+  padding: 2rem 0;
   list-style: none;
   margin: auto;
 `
@@ -37,6 +37,9 @@ const ContactLink = styled.a`
   letter-spacing: .2rem;
   span {
     padding-left: 1rem;
+  }
+  @media (max-width: 420px) {
+    font-size: 1.2rem;
   }
 `
 

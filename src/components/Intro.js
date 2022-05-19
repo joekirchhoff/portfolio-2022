@@ -9,6 +9,7 @@ const StyledSection = styled.section`
   align-items: center;
   justify-content: center;
   color: white;
+  
 `
 
 const FlexWrapper = styled.div`
@@ -22,7 +23,7 @@ const FlexWrapper = styled.div`
 const NameHeading = styled.h1`
   font-size: 3rem;
   letter-spacing: .5rem;
-  padding: 2rem;
+  padding: 2rem 0;
   span:first-of-type {
     font-weight: 900;
     margin-right: 1rem;
