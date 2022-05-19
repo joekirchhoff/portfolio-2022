@@ -3,10 +3,10 @@ import styled from "styled-components";
 const StyledSection = styled.section`
   background: #fff;
   padding-bottom: 2rem;
+  color: #595959;
 `
 
 const StyledHeader = styled.header`
-  color: #595959;
   padding: 2rem 0;
   font-size: 2rem;
   font-weight: 400;
@@ -16,7 +16,6 @@ const StyledHeader = styled.header`
 `
 
 const Description = styled.div`
-  color: #595959;
   padding: 2rem;
   max-width: 50rem;
   font-size: 1rem;
@@ -43,7 +42,7 @@ const About = () => {
           Joe (he / him) is a full-stack web developer based in Los Angeles. He is currently seeking opportunities to contribute to a thoughtful, like-minded team.
         </p>
         <p>
-          In addition to coding, Joe is a working screenwriter. His supernatural thriller script was featured in the&nbsp;
+          In addition to coding, Joe is a working screenwriter. His supernatural thriller was featured in the&nbsp;
           <a href='https://deadline.com/2020/09/the-black-ist-wif-women-in-film-los-angeles-episodic-feature-labs-1234576135/'>
             2020 Black List Feature Lab
           </a>
@@ -51,7 +50,7 @@ const About = () => {
         </p>
         <p>
           Joe draws from an eclectic background of experience, ranging from his education in Behavioral Neuroscience, to working
-          as a 3D modeler for urban planning commissions, to volunteering as a crisis counselor for the&nbsp;
+          as a 3D modeler for urban planning, to volunteering as a crisis counselor for the&nbsp;
           <a href='https://suicidepreventionlifeline.org/'>NSPL</a>
           . He also spent a brief fever dream as a bartender in Hollywood.
         </p>
