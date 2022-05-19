@@ -138,7 +138,7 @@ const Intro = () => {
           </NavList>
         </StyledNav>
       </FlexWrapper>
-      <ScrollBtn href='#about'>
+      <ScrollBtn href='#about' aria-label="scroll to about section">
         <svg width="80" height="80" viewBox="0 0 80 80" fill="none" transform='rotate(180)' xmlns="http://www.w3.org/2000/svg">
           <path
             d="M15.9629 44.1831L37.8416 22.3045C39.0131 21.1329 40.9126 21.1329 42.0842 22.3045L63.9629 44.1831"
