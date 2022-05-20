@@ -67,7 +67,7 @@ const Contact = () => {
       </StyledHeader>
       <ContactList>
         <li>
-          <ContactLink href="mailto:joe.elik@gmail.com">
+          <ContactLink href="mailto:joe@joekirchhoff.com">
             {/* Email Icon SVG */}
             <svg width="60" height="60" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -79,7 +79,7 @@ const Contact = () => {
                 fill="#ffffff"
               />
             </svg>
-            <span>joe.elik@gmail.com</span>
+            <span>joe@joekirchhoff.com</span>
           </ContactLink>
         </li>
         <li>
