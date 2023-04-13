@@ -97,9 +97,9 @@ const SectionDivider = styled.div`
 const Work = () => {
 
   return (
-    <StyledSection id="work">
+    <StyledSection id="code-examples">
       <StyledHeader>
-        <h1>WORK</h1>
+        <h1>CODE</h1>
       </StyledHeader>
 
       <ProjectSection>
@@ -108,14 +108,13 @@ const Work = () => {
         </ProjectPreviewLink>
         <ProjectHeader>
           <h2>MONOMYTH</h2>
-          <a href="https://monomyth.netlify.app/">LIVE PREVIEW</a>
+          {/* <a href="https://monomyth.netlify.app/">LIVE PREVIEW</a> */}
           <a href="https://github.com/joekirchhoff/monomyth">GITHUB REPO</a>
         </ProjectHeader>
         <ProjectDescription>
           <p>Full-stack short fiction platform.</p>
           <p>Online fiction outlets can be enormously beneficial to writers, especially those still developing their voice and identifying their audience. However, many platforms suffer from having evolved out of more general, feature-bloated content aggregation sites. This project seeks a happy middle ground, free from distracting clutter while also providing essential features specific to fiction, such as genre sorting.</p>
           <p>Built using React, Node.js, Express, and MongoDB. Users can read, submit, and "like" stories and comments. Authentication powered by Passport.js. Custom rich text editor developed using the Draft.js framework. Fuzzy search of story text powered by MongoDB Atlas Search.</p>
-          <p>Guest account available for demo purposes. All example stories are public domain works.</p>
         </ProjectDescription>
       </ProjectSection>
 
@@ -127,7 +126,7 @@ const Work = () => {
         </ProjectPreviewLink>
         <ProjectHeader reverse>
           <h2>PORTFOLIO</h2>
-          <a href="#top">LIVE PREVIEW</a>
+          {/* <a href="#top">LIVE PREVIEW</a> */}
           <a href="https://github.com/joekirchhoff/portfolio-2022">GITHUB REPO</a>
         </ProjectHeader>
         <ProjectDescription>

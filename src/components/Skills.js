@@ -116,6 +116,9 @@ const Skills = () => {
             <li>
               JEST
             </li>
+            <li>
+              AGILE TOOLS
+            </li>
           </SkillsList>
         </SkillsCard>
 

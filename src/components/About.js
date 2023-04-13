@@ -39,7 +39,8 @@ const About = () => {
       </StyledHeader>
       <Description>
         <p>
-          Joe (he / him) is a full-stack web developer based in Los Angeles. He is currently seeking opportunities to contribute to a thoughtful, like-minded team.
+          Joe (he / him) is a full-stack web developer based in Los Angeles.
+          He is currently contributing full-time as a software developer at <a href='https://everlightsolar.com/'>Everlight Solar</a>.
         </p>
         <p>
           In addition to coding, Joe is a working screenwriter. His supernatural thriller was featured in the&nbsp;

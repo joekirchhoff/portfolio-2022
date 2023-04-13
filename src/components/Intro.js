@@ -127,8 +127,8 @@ const Intro = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink href='#work'>
-                WORK
+              <NavLink href='#code-examples'>
+                CODE
               </NavLink>
             </li>
             <li>
